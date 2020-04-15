@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$db=mysqli_connect("localhost","root","","myresume") or die("Could not connect to database");
+	$db=mysqli_connect("localhost","root","","resume") or die("Could not connect to database");
 ?>
 <!DOCTYPE html>
 <html>
